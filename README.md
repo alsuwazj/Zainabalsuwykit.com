@@ -1,17 +1,13 @@
-# Academic website — Zainab Alsuwaykit
+# Zainab Alsuwaykit — Academic Website
 
-A standalone responsive academic portfolio built with HTML, CSS, and JavaScript, ready for GitHub Pages. No npm, Node.js, or external build step required.
+Static HTML/CSS/JS academic website, suitable for free GitHub Pages hosting. Features ARCOL and DiffFit only.
 
-## Publish on GitHub Pages
+## Publish
+Upload `index.html`, `styles.css`, `script.js`, and the entire `figures` folder to the **root** of the GitHub repository. On GitHub, open Settings → Pages, select “Deploy from a branch” with branch `main` and folder `/(root)`.
 
-1. Open the public repository `alsuwazj/Zainabalsuwykit.com`.
-2. Upload `index.html`, `styles.css`, and `script.js` to the top level of the **main** branch (not inside an additional folder).
-3. In **Settings → Pages**, choose **Deploy from a branch**, then branch **main**, folder **/(root)**, and **Save**.
-4. Once published, the address should be `https://alsuwazj.github.io/Zainabalsuwykit.com/`.
+## Research illustrations
+- `figures/arcol-teaser.png` — ARCOL teaser image from the PDF supplied by the website owner (used in Publications).
+- `figures/arcol-pipeline.png` — ARCOL pipeline image from the PDF supplied by the website owner (used in Projects).
+- DiffFit uses the official IEEE VIS 2024 online illustration: https://ieeevis.b-cdn.net/vis_2024/paper_images/v-full-1533_Image.png (internet connection required).
 
-You can modify the text in `index.html` and colors/spacing in `styles.css`.
-
-### Notes
-- Images are CSS/SVG illustrations, not figures from the research papers. Replace them with your own figures once available.
-- CV/photo links are intentionally omitted until their files are supplied.
-- Before publication, review all academic content for accuracy and whether you wish to disclose ongoing manuscripts.
+DARCOL and Content-Adaptive Lens have been removed from this version.
